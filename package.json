@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "pub": "npm publish --access public",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
