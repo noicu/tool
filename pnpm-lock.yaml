@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tovicn/is': ^0.0.1
   '@types/jest': 29.0.3
   '@typescript-eslint/eslint-plugin': 5.38.0
   '@typescript-eslint/parser': 5.38.0
@@ -10,6 +11,9 @@ specifiers:
   prettier: 2.7.1
   ts-jest: 29.0.1
   typescript: 4.8.3
+
+dependencies:
+  '@tovicn/is': 0.0.1
 
 devDependencies:
   '@types/jest': 29.0.3
@@ -708,6 +712,10 @@ packages:
     dependencies:
       '@sinonjs/commons': 1.8.3
     dev: true
+
+  /@tovicn/is/0.0.1:
+    resolution: {integrity: sha512-pnE7O2buAVPIeK5NbLxubvjUJnJ0qwmlqYtuUZmZoAn5IaLDhCSrN1y01EuklRqOOfF5/Sv0AQp4kAuqfIGoQA==}
+    dev: false
 
   /@types/babel__core/7.1.19:
     resolution: {integrity: sha512-WEOTgRsbYkvA/KCsDwVEGkd7WAr1e3g31VHQ8zy5gul/V1qKullU/BU5I68X5v7V3GnB9eotmom4v5a5gjxorw==}
