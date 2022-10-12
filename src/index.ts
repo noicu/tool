@@ -1,10 +1,12 @@
-export * from './helpers/math'
 import * as math from './helpers/math';
+import * as random from './helpers/random';
 
-export const range = math.range
+export * from './helpers/math';
+export * from './helpers/random';
+
 
 export default {
-  ...math,
-  range,
+  math,
+  random,
 };
 
