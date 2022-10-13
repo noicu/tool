@@ -1,4 +1,4 @@
-import { isN, isA } from "@tovicn/is";
+import { isN } from "@tovicn/is";
 
 export const random = (minNum?: number, maxNum?: number) => {
   if (maxNum !== (undefined && null)) {
