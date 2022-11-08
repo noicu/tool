@@ -1,1 +1,1 @@
-export const noRepeat = (arr: number[]) => [...new Set(arr)]
+export const noRepeat = <T>(arr: T[]) => [...new Set(arr)]
