@@ -11,6 +11,14 @@ export const random = (minNum?: number, maxNum?: number) => {
   return Math.random()
 }
 
+export const randoms = (length:number,minNum?: number, maxNum?: number) => {
+  const r = []
+  for (let i = 0; i < length; i++) {
+    r.push(random(minNum,maxNum))
+  }
+  return r
+}
+
 export const randomArr = <T>(n: Array<T>) => n[random(n.length - 1)]
 
 export const randomDisrupt = (n: number | string, length?: number) => {

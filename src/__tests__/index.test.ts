@@ -1,4 +1,4 @@
-import { range, random, randomArr, randomDisrupt } from '../index';
+import { range, random, randomArr, randomDisrupt,moneyFormat } from '../index';
 
 describe('math', () => {
 
@@ -14,5 +14,6 @@ describe('math', () => {
     console.log(randomDisrupt('123'));
     console.log(randomDisrupt('随机应变'));
     console.log(randomDisrupt('随机应变',2));
+    console.log(moneyFormat(123123123.22))
   });
 });
