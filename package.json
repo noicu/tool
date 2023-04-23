@@ -1,6 +1,6 @@
 {
-  "name": "@tovicn/tool",
-  "version": "0.0.7",
+  "name": "@noicu/tool",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -46,6 +46,6 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "@tovicn/is": "^0.0.1"
+    "@noicu/is": "^0.0.1"
   }
 }
